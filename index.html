@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="UTF-8">
+<title>Du lịch Bà Rịa - Vũng Tàu</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+body{
+    font-family:'Poppins',sans-serif;
+    background:#0a0a0a;
+    color:#fff;
+}
+
+/* HEADER */
+.header{
+    height:100vh;
+    background:
+    linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.8)),
+    url('https://images.unsplash.com/photo-1507525428034-b723cf961d3e');
+    background-size:cover;
+    background-position:center;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+}
+.header h1{
+    font-size:70px;
+    color:#FFD700;
+}
+.header p{
+    font-size:22px;
+}
+
+/* LOGO */
+.logo{
+    position:fixed;
+    top:15px;
+    left:15px;
+    background:rgba(255,255,255,0.1);
+    padding:10px 15px;
+    border-radius:12px;
+    backdrop-filter:blur(10px);
+    border:1px solid rgba(255,255,255,0.2);
+}
+
+/* NAV */
+nav{
+    background:#111;
+    padding:15px;
+    text-align:center;
+}
+nav a{
+    color:#FFD700;
+    margin:0 20px;
+    text-decoration:none;
+    font-weight:500;
+}
+
+/* SECTION */
+.section{
+    padding:70px 20px;
+    text-align:center;
+}
+.section h2{
+    color:#FFD700;
+    margin-bottom:20px;
+}
+
+/* GRID */
+.grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+    gap:25px;
+}
+
+/* CARD */
+.card{
+    background:#111;
+    border-radius:15px;
+    overflow:hidden;
+    box-shadow:0 5px 20px rgba(255,215,0,0.2);
+    transition:0.3s;
+}
+.card:hover{
+    transform:translateY(-10px);
+}
+.card img{
+    width:100%;
+    height:200px;
+    object-fit:cover;
+}
+.card h3{margin:10px;color:#FFD700}
+.card p{padding:0 10px 15px}
+
+/* FOOTER */
+.footer{
+    background:#000;
+    text-align:center;
+    padding:30px;
+    border-top:1px solid #333;
+}
+</style>
+</head>
+
+<body>
+
+<div class="logo">
+BÙI PHAN DĨ KHANG<br>
+📞 0823367977
+</div>
+
+<div class="header">
+<div>
+<h1>VŨNG TÀU</h1>
+<p>Thiên đường nghỉ dưỡng sang trọng</p>
+</div>
+</div>
+
+<nav>
+<a href="#">Giới thiệu</a>
+<a href="#">Địa điểm</a>
+<a href="#">Ẩm thực</a>
+<a href="#">Liên hệ</a>
+</nav>
+
+<div class="section">
+<h2>🌊 Giới thiệu</h2>
+<p>
+Bà Rịa - Vũng Tàu nổi tiếng với bãi biển đẹp, khí hậu mát mẻ, là điểm đến nghỉ dưỡng lý tưởng hàng đầu Việt Nam.
+</p>
+</div>
+
+<div class="section">
+<h2>📍 Địa điểm nổi bật</h2>
+
+<div class="grid">
+
+<div class="card">
+<img src="https://images.unsplash.com/photo-1507525428034-b723cf961d3e">
+<h3>Bãi Sau</h3>
+<p>Bãi biển đẹp, nước xanh trong.</p>
+</div>
+
+<div class="card">
+<img src="https://images.unsplash.com/photo-1526481280691-3bfa7568eec1">
+<h3>Mũi Nghinh Phong</h3>
+<p>Check-in cổng trời nổi tiếng.</p>
+</div>
+
+<div class="card">
+<img src="https://images.unsplash.com/photo-1501785888041-af3ef285b470">
+<h3>Hải đăng</h3>
+<p>Ngắm toàn cảnh thành phố.</p>
+</div>
+
+<div class="card">
+<img src="https://images.unsplash.com/photo-1500530855697-b586d89ba3ee">
+<h3>Côn Đảo</h3>
+<p>Thiên nhiên hoang sơ tuyệt đẹp.</p>
+</div>
+
+</div>
+</div>
+
+<div class="section">
+<h2>🍤 Ẩm thực</h2>
+
+<div class="grid">
+
+<div class="card">
+<img src="https://images.unsplash.com/photo-1604908176997-125f25cc6f3d">
+<h3>Bánh khọt</h3>
+<p>Đặc sản nổi tiếng Vũng Tàu.</p>
+</div>
+
+<div class="card">
+<img src="https://images.unsplash.com/photo-1553621042-f6e147245754">
+<h3>Hải sản</h3>
+<p>Tươi ngon, hấp dẫn.</p>
+</div>
+
+<div class="card">
+<img src="https://images.unsplash.com/photo-1604908554021-8f55c2f5d9e4">
+<h3>Lẩu cá đuối</h3>
+<p>Hương vị đậm đà.</p>
+</div>
+
+</div>
+</div>
+
+<div class="section">
+<h2>📞 Liên hệ</h2>
+<p>
+Công ty du lịch Bùi Phan Dĩ Khang<br>
+Hotline: 0823367977
+</p>
+</div>
+
+<div class="footer">
+© 2026 - Luxury Travel Vũng Tàu
+</div>
+
+</body>
+</html>
